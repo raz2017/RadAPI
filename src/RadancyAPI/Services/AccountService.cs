@@ -5,6 +5,8 @@ namespace RadancyAPI.Services;
 public class AccountService : IAccountService
 {
     private readonly IUserService _userService;
+
+    //This could have been an AccountRepository but access directly for now.
     public readonly Dictionary<Guid, Dictionary<Guid,Account>> Accounts;
 
     public AccountService(IUserService userService)

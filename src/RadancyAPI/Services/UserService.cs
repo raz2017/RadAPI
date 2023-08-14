@@ -4,6 +4,7 @@ namespace RadancyAPI.Services;
 
 public class UserService : IUserService
 {
+    //This could have been a UserRepository but access directly for now.
     public Dictionary<Guid, User> Users;
 
     public UserService()
