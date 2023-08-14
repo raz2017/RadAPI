@@ -4,7 +4,7 @@ namespace RadancyAPI.Services;
 
 public class UserService : IUserService
 {
-    private Dictionary<Guid, User> Users;
+    public Dictionary<Guid, User> Users;
 
     public UserService()
     {

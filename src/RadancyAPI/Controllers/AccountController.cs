@@ -6,6 +6,10 @@ using RadancyAPI.Services;
 
 namespace RadancyAPI.Controllers;
 
+/// <summary>
+/// Once a user has been created, we can create, update, and delete accounts for them.
+/// A user can have multiple accounts.
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class AccountController : ControllerBase

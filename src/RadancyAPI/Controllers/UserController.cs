@@ -6,6 +6,10 @@ using RadancyAPI.Services;
 
 namespace RadancyAPI.Controllers;
 
+/// <summary>
+/// In order to create an account you must first create the user.
+/// These endpoints allow you to create, update, and delete user details.
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class UserController : ControllerBase
