@@ -1,4 +1,4 @@
-# Radancy
+# RadAPI
 
 ## Run Tests
 
