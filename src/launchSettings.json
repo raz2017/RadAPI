@@ -5,7 +5,11 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "radancyapi": "StartDebugging"
-      }
+      },
+      "httpPort": 80,
+      "sslPort": 443,
+      "useSSL": true,
+      "launchBrowser": true
     }
   }
 }
