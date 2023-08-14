@@ -5,4 +5,5 @@
  
 ## Run API using Docker Compose
 cd src
+
 docker compose up
