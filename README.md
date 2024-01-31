@@ -1,3 +1,6 @@
+:w
+
+i
 # RadAPI
 
 ## Run Tests
