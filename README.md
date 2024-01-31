@@ -1,8 +1,5 @@
 :w
 
-i
-# RadAPI
-
 ## Run Tests
 In source directory, you can run tests executing:
 
