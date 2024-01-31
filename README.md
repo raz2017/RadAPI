@@ -1,7 +1,6 @@
 # RadAPI
 
 ## Run Tests
-
 In source directory, you can run tests executing:
 
 dotnet test .\tests\UnitTests\
